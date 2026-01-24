@@ -1,0 +1,15 @@
+﻿namespace Apitask.Models
+{
+    public class Link
+    {
+        public int Id { get; set; }
+
+        public string Url { get; set; } = null!;
+
+        public int PersonId { get; set; }
+        public Person Person { get; set; } = null!;
+
+        public int InterestId { get; set; }
+        public Interest Interest { get; set; } = null!;
+    }
+}
